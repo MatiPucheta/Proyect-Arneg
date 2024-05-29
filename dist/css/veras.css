@@ -1,0 +1,13 @@
+body.container {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh; /* Viewport Height */
+    width: 100vw; /* Viewport Width */
+}
+
+.frame {
+    border: none;
+    height: 100vh; /* Viewport Height */
+    width: 100vw; /* Viewport Width */
+}
