@@ -11,3 +11,132 @@ body.container {
     height: 100vh; /* Viewport Height */
     width: 100vw; /* Viewport Width */
 }
+
+#menu-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        transition: .3s;
+    }
+}
+
+#sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 310px;
+    height: 100vh;
+    background-color: #ccc;
+    display: none;
+    overflow: auto;
+}
+
+
+
+#sidebar__1 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 310px;
+    height: 100vh;
+    right: 310px;
+    background-color: #ccc;
+    display: none;
+    overflow: scroll;
+
+}
+
+#sidebar__2 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 310px;
+    height: 100vh;
+    right: 310px;
+    background-color: #ccc;
+    display: none;
+    overflow: scroll;
+
+}
+
+#sidebar__3 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 310px;
+    height: 100vh;
+    right: 310px;
+    background-color: #ccc;
+    display: none;
+    overflow: scroll;
+}
+
+#sidebar__4 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 310px;
+    height: 100vh;
+    right: 310px;
+    background-color: #ccc;
+    display: none;
+    overflow: scroll;
+}
+
+#sidebar__5 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 310px;
+    height: 100vh;
+    right: 310px;
+    background-color: #ccc;
+    display: none;
+    overflow: scroll;
+}
+
+.option {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(91, 201, 222);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        transition: .4s;
+    }
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+/* This will affect the entire document */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
