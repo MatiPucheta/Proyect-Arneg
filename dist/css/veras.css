@@ -6,6 +6,17 @@ body.container {
     width: 100vw; /* Viewport Width */
 }
 
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    z-index: 1;
+
+    &a{
+    text-decoration: none;
+    }
+}
+
 .frame {
     border: none;
     height: 100vh; /* Viewport Height */
