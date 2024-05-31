@@ -27,7 +27,7 @@ body.container {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 3;
 
     &:hover {
         background-color: rgb(0, 0, 0);
@@ -38,77 +38,108 @@ body.container {
 
 #sidebar {
     position: fixed;
-    right: 0;
+    right: -310px;
     top: 0;
     width: 310px;
     height: 100vh;
     background-color: #ccc;
-    display: none;
     overflow: auto;
+    transition: right 0.3s ease;
+    z-index: 2;
 }
 
 
 
 #sidebar__1 {
     position: fixed;
-    right: 0;
     top: 0;
     width: 310px;
     height: 100vh;
-    right: 310px;
-    background-color: #ccc;
-    display: none;
+    right: -620px;
+    background-color: #504e4e;
     overflow: scroll;
+    transition: right 0.3s ease;
+    z-index: 1;
 
 }
 
 #sidebar__2 {
     position: fixed;
-    right: 0;
     top: 0;
     width: 310px;
     height: 100vh;
-    right: 310px;
-    background-color: #ccc;
-    display: none;
+    right: -620px;
+    background-color: #504e4e;
     overflow: scroll;
+    transition: right 0.3s ease;
+    z-index: 1;
 
 }
 
 #sidebar__3 {
     position: fixed;
-    right: 0;
     top: 0;
     width: 310px;
     height: 100vh;
-    right: 310px;
-    background-color: #ccc;
-    display: none;
+    right: -620px;
+    background-color: #504e4e;
     overflow: scroll;
+    transition: right 0.3s ease;
+    z-index: 1;
 }
 
 #sidebar__4 {
     position: fixed;
-    right: 0;
     top: 0;
     width: 310px;
     height: 100vh;
-    right: 310px;
-    background-color: #ccc;
-    display: none;
+    right: -620px;
+    background-color: #504e4e;
     overflow: scroll;
+    transition: right 0.3s ease;
+    z-index: 1;
 }
 
 #sidebar__5 {
     position: fixed;
-    right: 0;
     top: 0;
     width: 310px;
     height: 100vh;
-    right: 310px;
-    background-color: #ccc;
-    display: none;
+    right: -620px;
+    background-color: #504e4e;
     overflow: scroll;
+    transition: right 0.3s ease;
+    z-index: 1;
+}
+
+#sidebar__1 > img{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+}
+
+#sidebar__2 > img{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+}
+
+#sidebar__3 > img{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+}
+
+#sidebar__4 > img{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+}
+
+#sidebar__5 > img{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
 }
 
 .option {
