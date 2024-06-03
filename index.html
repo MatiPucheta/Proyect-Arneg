@@ -23,8 +23,14 @@
   </div> -->
 
   <h1 class="titulo_front">
-    <span class="red">Arneg</span><span id="hide">&nbsp;
-    <span class="red">Ar</span class='en_blanco'>tificial I<span class="red">n</span>t<span class="red">e</span>lli<span class="red">g</span>ence</span>
+    <div class="text-wrapper">
+      <span class="text-content">
+        <span class="red">Arneg</span>
+      </span>
+      <span class="text-content" id="expanded">
+        <span class="red">Ar</span>tificial I<span class="red">n</span>t<span class="red">e</span>lli<span class="red">g</span>ence
+      </span>
+    </div>
   </h1>
 
   <div class="hero__button">
@@ -33,5 +39,22 @@
   </div>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./dist/js/script.js"></script>
+  <script>
+    const arnegText = document.querySelector('.text-content:first-child');
+    const expandedText = document.querySelector('#expanded');
+
+    function expandContractText() {
+      arnegText.style.display = 'none';
+      expandedText.style.display = 'inline-block';
+
+      setTimeout(() => {
+        arnegText.style.display = 'inline-block';
+        expandedText.style.display = 'none';
+      }, 3000);
+    }
+
+    setInterval(expandContractText, 6000);
+    expandContractText();
+  </script>
 </body>
 </html>
