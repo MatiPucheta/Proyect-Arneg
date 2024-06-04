@@ -50,9 +50,9 @@
 	  font-size: 100px;
 	  font-family: Roboto, sans-serif;
 	  font-weight: 900;
-	  cursor: pointer;
-	bottom: 40px;
-	-webkit-text-stroke: 2px black; /* Ajusta el grosor y el color del borde a tu gusto */
+	  user-select: none;
+	  bottom: 40px;
+	  -webkit-text-stroke: 2px black; /* Ajusta el grosor y el color del borde a tu gusto */
   
   }
   .tpq {
