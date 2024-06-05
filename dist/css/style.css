@@ -17,7 +17,6 @@
 .tpq {
 	max-width: 0;
 	opacity: 0;
-	transition: 1s ease-in;
 	font-family: Roboto, sans-serif;
 }
 
@@ -29,7 +28,7 @@
 .text .tpq {
 	opacity: 1;
 	max-width: 1em;
-	transition: 1s ease-in;
+	transition: 5s ease-in;
 }
 
 @keyframes hoverAnimation {
@@ -48,7 +47,7 @@
 }
 
 .text .tpq {
-	animation: hoverAnimation 5s infinite;
+	animation: hoverAnimation 8s infinite;
 }  
 
 #color{
