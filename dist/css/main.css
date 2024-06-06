@@ -109,7 +109,34 @@ body {
     & .title {
       font-family: Roboto, sans-serif;
       text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+      left: 20%;
+      
     }
+
+    & .title::before {  
+      transform: scaleX(0);
+      transform-origin: bottom right;
+    }
+    
+    & .title:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    
+    & .title::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      inset: 0 0 0 0;
+      background: hsl(0, 100%, 50%);
+      z-index: -1;
+      transition: transform .3s ease;
+    }
+
+
   
     & .description {
       line-height: 1.7;
