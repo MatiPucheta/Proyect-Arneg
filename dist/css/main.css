@@ -46,6 +46,10 @@ body {
     height: 100%;
     box-shadow: 0 3px 10px rgba(0,0,0,0.3);
   }
+
+  .boton_veras_main {
+    top: 10px;
+  }
   
   .item {
     width: 200px;
@@ -152,7 +156,7 @@ body {
       background-color: rgb(255, 255, 255);
       color: white;
       font-size: medium;
-      border: 2px solid white;
+      border: 2px solid #c02525;
       border-radius: 5px;
       padding: 0.75rem;
       cursor: pointer;
